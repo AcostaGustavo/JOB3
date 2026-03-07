@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Motion.Backend/Motion.Backend.csproj" Id="23037cce-0152-4324-8446-98bd82437680" />
+  <Project Path="PickFruits.Fronend/PickFruits.Frontend.csproj" Id="d3d04578-d530-4234-90ed-c111b068dba2" />
+</Solution>
