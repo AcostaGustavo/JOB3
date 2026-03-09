@@ -1,6 +1,6 @@
 ﻿namespace Motion.Backend;
 
-public class Movement // Renombramos para evitar colisión con el namespace
+public class Movement 
 {
     public int Fila { get; set; }
     public int Columna { get; set; }
@@ -9,13 +9,13 @@ public class Movement // Renombramos para evitar colisión con el namespace
 
     private char[,] _campo;
 
-    // Constructor que recibe el tablero
+    
     public Movement(char[,] campoExistente)
     {
         _campo = campoExistente;
     }
 
-    // Constructor para movimientos fallidos
+    
     public Movement()
     {
         _campo = new char[8, 8];

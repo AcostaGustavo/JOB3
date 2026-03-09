@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using Motion.Backend; // Asegúrate de que la referencia de proyecto esté agregada
+using Motion.Backend; 
 
 
 namespace PickFruits.Frontend;
@@ -28,7 +28,7 @@ class Program
 
         foreach (var mov in movimientos)
         {
-            // Usamos la lógica de Harvest para obtener un Motion
+            
             Movement res = juego.CalcularNuevoMovimiento(filaActual, colActual, mov);
 
             if (res.EsValido)

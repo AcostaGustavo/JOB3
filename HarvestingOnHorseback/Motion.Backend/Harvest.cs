@@ -24,7 +24,7 @@ public class Harvest
         }
     }
 
-    // AHORA DEVUELVE UN OBJETO "Motion"
+    
     public Movement CalcularNuevoMovimiento(int fActual, int cActual, string sigla)
     {
         var (df, dc) = sigla.Trim().ToUpper() switch
