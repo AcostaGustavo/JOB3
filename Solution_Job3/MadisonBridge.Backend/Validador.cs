@@ -77,7 +77,7 @@ public class ValidadorBackend
             }
         }
 
-        // Si pasó todas las reglas anteriores
+        
         resultado = "VALIDO";
         return true;
     }
